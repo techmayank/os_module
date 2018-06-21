@@ -15,4 +15,4 @@ for f in os.listdir():
 
     new_name='{}-{}{}'.format(f_num,f_title,f_ext)
     os.rename(f,new_name)
- 
+    print(os.getcwd())
